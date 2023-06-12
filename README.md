@@ -13,3 +13,5 @@ We implemented an attention layer using PyTorch. During training, we utilized th
 Once we obtained the solution, denoted as $\hat{p}$ (p-hat), we determined the locally optimal indices as those with the highest softmax scores. To solve the optimization problem described in equation (attnsvm), we used the Python package cvxopt. By solving this problem, we obtained the solution 𝑝. Subsequently, we verified that these indices satisfied our local-optimal definition.
 
 In our paper, the examples we used were constructed in such a way that it was straightforward to verify their optimality. In the joint optimization of $(p,v)$, the v-optimization was solved using the Python package sklearn.svm.
+
+### 📝 Requirements 
