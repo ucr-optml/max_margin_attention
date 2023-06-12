@@ -15,3 +15,7 @@ Once we obtained the solution, denoted as $\hat{p}$ (p-hat), we determined the l
 In our paper, the examples we used were constructed in such a way that it was straightforward to verify their optimality. In the joint optimization of $(p,v)$, the v-optimization was solved using the Python package sklearn.svm.
 
 ### Requirements 
+
+
+
+### Reproducing Results 
