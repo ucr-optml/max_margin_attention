@@ -13,8 +13,25 @@ Once we obtained the solution, denoted as $\hat{p}$ (p-hat), we determined the l
 
 In our paper, the examples we used were constructed in such a way that it was straightforward to verify their optimality. In the joint optimization of $(p,v)$, the v-optimization was solved using the Python package sklearn.svm.
 
-### Requirements 
+### Requirements
 
-
+```
+torch
+cvxopt
+sklearn
+```
 
 ### Reproducing Results 
+
+- Local vs global convergence for fixed $v$:
+
+  - *single_input_converge.ipynb*: Visualization of gradient iteration path when there is single input. Set ```g_converge=True``` to perform global convergence and ```g_converge=False``` for local convergence.
+  - *multi_input_converge.ipynb*: Visualization of gradient iteration path considering multiple inputs and global convergence. 
+
+- Jointly training $v$ and $p$:
+
+  - *joint_training.ipynb*: Visualization of gradient iteration paths for both $v$ and $p$. Set ```tight_converge=True``` to perform scenario where all inputs are support vectors and ```tight_converge=False``` to the contrary.
+
+- Comparison for different loss functions: 
+
+  - *diff_loss_function.ipynb*: Implementation of different settings when loss functions are: $\ell(x)=-x$ or $\ell(x)=\log(1+e^{-x})$.
