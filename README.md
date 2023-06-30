@@ -1,5 +1,5 @@
 # Margin Maximization in Attention Mechanism
-This repository holds the official code for the paper [Max-Margin Token Selection in Attention Mechanism](https://arxiv.org/pdf/2306.13596v1.pdf)
+This repository holds the official code for the paper [Max-Margin Token Selection in Attention Mechanism](https://arxiv.org/abs/2306.13596)
 
 ### Abstract
 Attention mechanism is a central component of the transformer architecture which led to the phenomenal success of large language models. We explore the seminal softmax-attention model 
